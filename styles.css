@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  background-image: url(https://img.freepik.com/premium-vector/colorful-seamless-sign-pattern-bright-trendy-background-fashion-design-8090s_547648-2545.jpg?w=826);
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: 300px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  /* background-color: #0bfad6; */
+  background-image: url(https://i.pinimg.com/originals/10/a3/55/10a355b13c8a48ffd07d0c637c8eda01.jpg);
+  box-shadow: 15px 20px 5px rgba(0, 0, 0, 0.177);
+}
+
+#question {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#choices {
+  display: flex;
+  flex-direction: column;
+}
+
+#choices label {
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: transparent;
+  color: #505050;
+}
+
+footer p {
+  margin: 0;
+}
